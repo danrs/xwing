@@ -36,6 +36,15 @@ Building
 3. `npm install` to install the dependencies listed in `package.json`.
 4. `grunt` to build everything into the `app` directory.  The builder is at `app/index.html`.
 
+Deployment
+==========
+
+1. Check out the `deploy` branch and rebase on top of master for any changes
+2. Build as per instructions above
+3. `mv app docs # move the build to a directory that the pages builder can see`
+4. `git push origin deploy`
+
+
 Translation
 ===========
 
